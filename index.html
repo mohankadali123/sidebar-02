@@ -699,7 +699,12 @@
       .clg-title {
         font-size: 10px;
       }
-
+      .tab-pane{
+        padding: 0.4!important;
+      }
+      #content{
+        padding: 0!important;
+      }
     }
 
     @media screen and (min-width: 576px) and (max-width: 768px),
@@ -1195,7 +1200,7 @@
     <!-- Page Content  -->
     <div id="content" class="p-4 p-md-5 pt-5">
       <h2 class="mb-4">CSE Department</h2>
-      <div class="container my-5">
+      <div class="container my-5 ">
         <nav>
           <div class="nav flex-column flex-lg-row " id="nav-tab" role="tablist">
             <button class="nav-link active ml-md-0" id="nav-department-tab" data-bs-toggle="tab"
@@ -1225,12 +1230,12 @@
               aria-selected="false">Salient Features</button>
           </div>
         </nav>
-        <div class="tab-content" id="nav-tabContent">
+        <div class="tab-content p-1 p-sm-0" id="nav-tabContent">
           <div class="tab-pane fade  p-3" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
             <h2>Vision</h2>
             <p>Department Vision content goes here.</p>
           </div>
-          <div class="tab-pane fade p-3" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+          <div class="tab-pane fade p-3 p-1 p-sm-0" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
             <h2>Mission</h2>
             <p>Department Mission content goes here.</p>
           </div>
@@ -1238,7 +1243,7 @@
             <h2>PEOs</h2>
             <p>PEOs content goes here.</p>
           </div>
-          <div class="tab-pane fade  show active p-3" id="nav-department" role="tabpanel"
+          <div class="tab-pane fade  show active p-3 p-xs-0" id="nav-department" role="tabpanel"
             aria-labelledby="nav-department-tab">
             <div class="row">
               <div class="col-md-8">
