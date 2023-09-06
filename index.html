@@ -1,635 +1,967 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Sidebar 02</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!----page content for dept profile below-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!--dept profile link tag-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<head>
+  <title>Sidebar 02</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!----page content for dept profile below-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-	<style>
-        /* Decrease the font size of the list items in the ul with class "list-unstyled" */
-        .list-unstyled.components li a {
-            font-size: 12px; /* You can adjust the size as needed */
-        }
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-        /* Change the color of the side navigation to black and white */
-		    #sidebar {
-            background-color: black;
-        }
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--dept profile link tag-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-        #sidebar a {
-            color: white;
-            text-decoration:none;
-        }
+  <style>
+    body {
+      padding-top: 70px;
+    }
 
-        /* Add a hover effect for links */
-        #sidebar a:hover {
-            color: #fff;
-			      font-weight: 600;
+    /* Decrease the font size of the list items in the ul with class "list-unstyled" */
+    .list-unstyled.components li a {
+      font-size: 12px;
+      /* You can adjust the size as needed */
+    }
 
-        }
-        
+    /* Change the color of the side navigation to black and white */
+    #sidebar {
+      background-color: #343a40 !important;
+    }
 
-    </style>
-    <!--dept profile css below-->
-   
+    #sidebar a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    /* Add a hover effect for links */
+    #sidebar a:hover {
+      color: #fff;
+      font-weight: 600;
+
+    }
+  </style>
+  <!--dept profile css below-->
+
   <!--dept profile above-->
+  <title>Tabs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Optional: jQuery (required for some Bootstrap components) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Optional: Popper.js (required for some Bootstrap components) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
+  <!------------------------------------------nav style-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-
-
-    <title>Tabs</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Optional: jQuery (required for some Bootstrap components) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Optional: Popper.js (required for some Bootstrap components) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    
-    <!------------------------------------------nav style-->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-
-body {
-    margin: 0;
-}
-
-.bg-color {
-    background-color: #b1040e;
-}
-
-.logo-image {
-    height: 200px;
-    width: 200px;
-}
-
-.fixed-main-image {
-    width: 100vw;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    background-attachment: fixed;
-    background-image: url('https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693834930/CollegeBuilding_eh7qjr.jpg');
-
-
-}
-
-.second-navbar {
-    background-color: #ffffff;
-    height: 30px;
-    width: 100%;
-}
-
-.shadow-layer {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: black;
-    background-size: cover;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 250PX;
-    text-align: center;
-}
-
-.content {
-    width: 100%;
-    padding: 10px;
-}
-
-.clg-title-navbar {
-    font-size: 20px;
-}
-
-.clg-title {
-    font-size: 80px;
-    text-shadow: 5px 5px 5px #000000;
-}
-
-.clg-logo-navbar {
-    background-color: red;
-}
-
-.menu-item-link {
-    color: #d0b200;
-    font-family: "Roboto";
-    font-size: 10px;
-    font-weight: 500;
-}
-
-.menu-card-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: BOLD;
-    margin-top: 24px;
-    text-align: center;
-
-}
-
-.menu-item-card {
-    height: 300px;
-    border-radius: 16px;
-}
-
-.placement-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: whitesmoke;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-}
-
-.placement-content-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: whitesmoke;
-    width: 100%;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.count-increase {
-    font-size: 25px;
-}
-
-.empty {
-    height: 100px;
-    width: 100px;
-}
-
-.empty-1 {
-    height: 80px;
-    width: 100px;
-}
-
-.stats {
-    text-align: center;
-}
-
-.wcu-card-image {
-    width: 87px;
-    height: 90px;
-    text-align: center;
-}
-
-.wcu-card {
-    text-align: center;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e5eaf4;
-    border-radius: 16px;
-}
-
-.wcu-card-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.wcu-section-heading {
-    color: #183b56;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.testimony {
-    background-color: grey;
-    height: 170px;
-    text-align: center;
-}
-
-.college-stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white;
-    width: 100%;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.title-small {
-    display: none;
-}
-
-.masters-card {
-    text-align: center;
-}
-
-.program-button {
-    color: #ffffff;
-    border-style: none;
-    height: 30px;
-    border-radius: 10px;
-    width: 70px;
-}
-
-.nav-elements-large {
-    display: none;
-}
-
-/*company logos css*/
-/* Company Scroll Bar CSS starts here. */
-@keyframes slide {
-    from {
-        transform: translateX(0);
+    body {
+      margin: 0;
     }
 
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.company-logos {
-    overflow: hidden;
-    padding: 60px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-}
-
-.company-logos:before,
-.company-logos:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-}
-
-.company-logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-}
-
-.company-logos:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-}
-
-.company-logos-slide {
-    display: inline-block;
-    animation: 50s slide infinite linear;
-}
-
-.company-logos-slide img {
-    height: 50px;
-    margin: 0 50px;
-}
-
-/* Comapny SCroll Bar CSS ends here. */
-
-
-@media not screen and (min-width:0px) and (max-width:991px) {
-    .nav-elements-large {
-        display: block !important;
+    .bg-color {
+      background-color: #b1040e;
     }
 
-    .nav-elements-small {
-        display: none !important;
-    }
-}
-@media  screen and (min-width:0px) and (max-width:991px) {
-    .nav-elements-large{
-        display: none !important;
-    }
-    .nav-elements-small{
-        display: block !important;
-    }
-}
-
-@media screen and (min-width:0px) and (max-width:575px) {
-    .title-small {
-        display: block;
-        font-size: 50px;
-    }
-
-    .title-span {
-        display: none;
-    }
-
-    .clg-title-navbar {
-        font-size: 12px;
-    }
-
-    .clg-title {
-        font-size: 40px !important;
+    .logo-image {
+      height: 200px;
+      width: 200px;
     }
 
     .fixed-main-image {
-        height: 200px;
+      width: 100vw;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      background-attachment: fixed;
+      background-image: url('https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693834930/CollegeBuilding_eh7qjr.jpg');
+
+
+    }
+
+    .second-navbar {
+      background-color: #ffffff;
+      height: 30px;
+      width: 100%;
+    }
+
+    .shadow-layer {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      background-color: black;
+      background-size: cover;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 250PX;
+      text-align: center;
+    }
+
+    .content {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .clg-title-navbar {
+      font-size: 20px;
+    }
+
+    .clg-title {
+      font-size: 80px;
+      text-shadow: 5px 5px 5px #000000;
+    }
+
+    .clg-logo-navbar {
+      background-color: red;
+    }
+
+    .menu-item-link {
+      color: #d0b200;
+      font-family: "Roboto";
+      font-size: 10px;
+      font-weight: 500;
+    }
+
+    .menu-card-title {
+      color: #323f4b;
+      font-family: "Roboto";
+      font-size: 20px;
+      font-weight: BOLD;
+      margin-top: 24px;
+      text-align: center;
+
     }
 
     .menu-item-card {
+      height: 300px;
+      border-radius: 16px;
+    }
+
+    .placement-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: whitesmoke;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .placement-content-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: whitesmoke;
+      width: 100%;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .count-increase {
+      font-size: 25px;
+    }
+
+    .empty {
+      height: 100px;
+      width: 100px;
+    }
+
+    .empty-1 {
+      height: 80px;
+      width: 100px;
+    }
+
+    .stats {
+      text-align: center;
+    }
+
+    .wcu-card-image {
+      width: 87px;
+      height: 90px;
+      text-align: center;
+    }
+
+    .wcu-card {
+      text-align: center;
+      background-color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #e5eaf4;
+      border-radius: 16px;
+    }
+
+    .wcu-card-title {
+      color: #323f4b;
+      font-family: "Roboto";
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .wcu-section-heading {
+      color: #183b56;
+      font-family: "Roboto";
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .testimony {
+      background-color: grey;
+      height: 170px;
+      text-align: center;
+    }
+
+    .college-stats {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: white;
+      width: 100%;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .title-small {
+      display: none;
+    }
+
+    .masters-card {
+      text-align: center;
+    }
+
+    .program-button {
+      color: #ffffff;
+      border-style: none;
+      height: 30px;
+      border-radius: 10px;
+      width: 70px;
+    }
+
+    .nav-elements-large {
+      display: none;
+    }
+
+    /*company logos css*/
+    /* Company Scroll Bar CSS starts here. */
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .company-logos {
+      overflow: hidden;
+      padding: 60px 0;
+      background: white;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .company-logos:before,
+    .company-logos:after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      content: "";
+      z-index: 2;
+    }
+
+    .company-logos:before {
+      left: 0;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    }
+
+    .company-logos:after {
+      right: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    }
+
+    .company-logos-slide {
+      display: inline-block;
+      animation: 50s slide infinite linear;
+    }
+
+    .company-logos-slide img {
+      height: 50px;
+      margin: 0 50px;
+    }
+
+    /* Comapny SCroll Bar CSS ends here. */
+
+
+    @media not screen and (min-width:0px) and (max-width:991px) {
+      .nav-elements-large {
+        display: block !important;
+      }
+
+      .nav-elements-small {
+        display: none !important;
+      }
+    }
+
+    @media screen and (min-width:0px) and (max-width:991px) {
+      .nav-elements-large {
+        display: none !important;
+      }
+
+      .nav-elements-small {
+        display: block !important;
+      }
+    }
+
+    @media screen and (min-width:0px) and (max-width:575px) {
+      .title-small {
+        display: block;
+        font-size: 50px;
+      }
+
+      .title-span {
+        display: none;
+      }
+
+      .clg-title-navbar {
+        font-size: 12px;
+      }
+
+      .clg-title {
+        font-size: 40px !important;
+      }
+
+      .fixed-main-image {
+        height: 200px;
+      }
+
+      .menu-item-card {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+      }
 
-    .menu-item-image {
+      .menu-item-image {
         height: 100px;
         width: 100px;
-    }
+      }
 
-    .placement-size {
+      .placement-size {
         font-size: 12px;
-    }
+      }
 
-    .clg-title {
+      .clg-title {
         font-size: 10px;
+      }
+
     }
 
-}
-@media screen and (min-width: 576px) and (max-width: 768px),
-(min-width :768px) {
-    .menu-item-image {
+    @media screen and (min-width: 576px) and (max-width: 768px),
+    (min-width :768px) {
+      .menu-item-image {
         height: 150px;
         width: 150px;
         text-align: center;
+      }
+
+      .menu-item-card {
+        text-align: center;
+      }
+
+      .fixed-main-image {
+        height: 300px;
+        background-position: center;
+      }
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+    body {
+      margin: 0;
     }
 
-    .menu-item-card {
-        text-align: center;
+    .bg-color {
+      background-color: #b1040e;
+    }
+
+    .logo-image {
+      height: 200px;
+      width: 200px;
     }
 
     .fixed-main-image {
-        height: 300px;
-        background-position: center;
+      width: 100vw;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      background-attachment: fixed;
+      background-image: url('https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693834930/CollegeBuilding_eh7qjr.jpg');
+
+
     }
-}
-    </style>
+
+    .second-navbar {
+      background-color: #ffffff;
+      height: 30px;
+      width: 100%;
+    }
+
+    .shadow-layer {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      background-color: black;
+      background-size: cover;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 250PX;
+      text-align: center;
+    }
+
+    .content {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .clg-title-navbar {
+      font-size: 20px;
+    }
+
+    .clg-title {
+      font-size: 80px;
+      text-shadow: 5px 5px 5px #000000;
+    }
+
+    .clg-logo-navbar {
+      background-color: red;
+    }
+
+    .menu-item-link {
+      color: #d0b200;
+      font-family: "Roboto";
+      font-size: 10px;
+      font-weight: 500;
+    }
+
+    .menu-card-title {
+      color: #323f4b;
+      font-family: "Roboto";
+      font-size: 20px;
+      font-weight: BOLD;
+      margin-top: 24px;
+      text-align: center;
+
+    }
+
+    .menu-item-card {
+      height: 300px;
+      border-radius: 16px;
+    }
+
+    .placement-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: whitesmoke;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .placement-content-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: whitesmoke;
+      width: 100%;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .count-increase {
+      font-size: 25px;
+    }
+
+    .empty {
+      height: 100px;
+      width: 100px;
+    }
+
+    .empty-1 {
+      height: 80px;
+      width: 100px;
+    }
+
+    .stats {
+      text-align: center;
+    }
+
+    .wcu-card-image {
+      width: 87px;
+      height: 90px;
+      text-align: center;
+    }
+
+    .wcu-card {
+      text-align: center;
+      background-color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #e5eaf4;
+      border-radius: 16px;
+    }
+
+    .wcu-card-title {
+      color: #323f4b;
+      font-family: "Roboto";
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .wcu-section-heading {
+      color: #183b56;
+      font-family: "Roboto";
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .testimony {
+      background-color: grey;
+      height: 170px;
+      text-align: center;
+    }
+
+    .college-stats {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: white;
+      width: 100%;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .title-small {
+      display: none;
+    }
+
+    .masters-card {
+      text-align: center;
+    }
+
+    .program-button {
+      color: #ffffff;
+      border-style: none;
+      height: 30px;
+      border-radius: 10px;
+      width: 70px;
+    }
+
+    .nav-elements-large {
+      display: none;
+    }
+
+    /* company logos css */
+    /* Company Scroll Bar CSS starts here. */
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .company-logos {
+      overflow: hidden;
+      padding: 60px 0;
+      background: white;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .company-logos:before,
+    .company-logos:after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      content: "";
+      z-index: 2;
+    }
+
+    .company-logos:before {
+      left: 0;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    }
+
+    .company-logos:after {
+      right: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    }
+
+    .company-logos-slide {
+      display: inline-block;
+      animation: 50s slide infinite linear;
+    }
+
+    .company-logos-slide img {
+      height: 50px;
+      margin: 0 50px;
+    }
+
+    /* Comapny SCroll Bar CSS ends here. */
 
 
+    @media not screen and (min-width:0px) and (max-width:991px) {
+      .nav-elements-large {
+        display: block !important;
+      }
 
+      .nav-elements-small {
+        display: none !important;
+      }
+    }
 
+    @media screen and (min-width:0px) and (max-width:991px) {
+      .nav-elements-large {
+        display: none !important;
+      }
 
+      .nav-elements-small {
+        display: block !important;
+      }
+    }
 
+    @media screen and (min-width:0px) and (max-width:575px) {
+      .title-small {
+        display: block;
+        font-size: 50px;
+      }
 
+      .title-span {
+        display: none;
+      }
 
-    <!--- --------------------- full tab content--------------------------->
-    <style>
-      .nav {
-        margin: 10px auto;
-        margin-bottom: 0;
+      .clg-title-navbar {
+        font-size: 12px;
+      }
+
+      .clg-title {
+        font-size: 40px !important;
+      }
+
+      .fixed-main-image {
+        height: 200px;
+      }
+
+      .menu-item-card {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-  
       }
-  
+
+      .menu-item-image {
+        height: 100px;
+        width: 100px;
+      }
+
+      .placement-size {
+        font-size: 12px;
+      }
+
+      .clg-title {
+        font-size: 10px;
+      }
+
+    }
+
+    @media screen and (min-width: 576px) and (max-width: 768px),
+    (min-width :768px) {
+      .menu-item-image {
+        height: 150px;
+        width: 150px;
+        text-align: center;
+      }
+
+      .menu-item-card {
+        text-align: center;
+      }
+
+      .fixed-main-image {
+        height: 300px;
+        background-position: center;
+      }
+    }
+  </style>
+  <!--- --------------------- full tab content--------------------------->
+  <style>
+    #sidebar .custom-menu .btn.btn-primary:hover,
+    #sidebar .custom-menu .btn.btn-primary:focus {
+      background-color: #850209;
+    }
+
+    .nav {
+      margin: 10px auto;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .nav-link {
+      color: #b1040e;
+      /* Text color */
+      background-color: #fff;
+      /* Background color */
+      border: none;
+      /* Remove border */
+      border-radius: 0;
+      /* Remove border radius */
+      transition: background-color 0.3s ease-in-out;
+      /* Add smooth transition */
+      margin-left: 5px;
+      margin-bottom: 0;
+      padding-bottom: 15px;
+      border-bottom: 15px hidden #fff;
+
+
+      /* Updated margin to create space between stacked buttons */
+    }
+
+
+
+    .nav-link:hover {
+      background-color: #850209;
+      color: #fff;
+      font-weight: 500;
+      /* Change color on hover */
+    }
+
+    /* CSS for the active tab button */
+    .nav-link.active {
+      background-color: #f8f9fa;
+      transform: translateY(2px);
+      color: #850209;
+      border: 1px solid #850209;
+      border-bottom: none;
+      font-weight: 700;
+    }
+
+    .tab-content {
+      background-color: #f8f9fa;
+      /* Background color for tab content */
+      padding: 20px;
+      border: 2px solid #b1040e;
+      /* Add a border to tab content */
+      border-radius: 10px;
+      /* Rounded corners for the bottom of tab content */
+    }
+
+    .tab-pane {
+      animation: fadeIn 0.5s ease-in-out;
+      /* Add fadeIn animation to tab content */
+    }
+
+    #sidebarCollapse {
+      background-color: #850209;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+
+    }
+
+    @media screen and (max-width: 996px) {
+
+      .nav-link:first-child {
+        margin-left: 4px;
+      }
+
       .nav-link {
-        color: #b1040e;
-        /* Text color */
-        background-color: #fff;
-        /* Background color */
-        border: none;
-        /* Remove border */
-        border-radius: 0;
-        /* Remove border radius */
-        transition: background-color 0.3s ease-in-out;
-        /* Add smooth transition */
-        margin-left: 5px;
-        margin-bottom: 0;
-        padding-bottom: 15px;
-        border-bottom: 15px hidden #fff;
-  
-  
-        /* Updated margin to create space between stacked buttons */
+        border: 2px solid #ffffff;
+        margin-bottom: 5px;
+        padding-bottom: 8px;
+        width: 100%;
       }
-     
-      
-  
-      .nav-link:hover {
-        background-color: #850209;
-        color: #fff;
-        font-weight: 500;
-        /* Change color on hover */
-      }
-  
-      /* CSS for the active tab button */
+
       .nav-link.active {
-        background-color: #f8f9fa;
-        transform: translateY(2px);
-        color: #850209;
         border: 1px solid #850209;
-        border-bottom: none;
-        font-weight: 700;
-      }
-  
-      .tab-content {
-        background-color: #f8f9fa;
-        /* Background color for tab content */
-        padding: 20px;
-        border: 2px solid #b1040e;
-        /* Add a border to tab content */
-        border-radius: 10px;
-        /* Rounded corners for the bottom of tab content */
-      }
-  
-      .tab-pane {
-        animation: fadeIn 0.5s ease-in-out;
-        /* Add fadeIn animation to tab content */
-      }
-      #sidebarCollapse{
-        background-color: #850209;
-      }
-  
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-  
-        to {
-          opacity: 1;
-        }
-  
-      }
-  
-      @media screen and (max-width: 996px) {
-        
-        .nav-link:first-child {
-          margin-left: 4px;
-        }
-  
-        .nav-link {
-          border: 2px solid #ffffff;
-          margin-bottom: 5px;
-          padding-bottom: 8px;
-          width:100%;
-        }
-  
-        .nav-link.active {
-          border: 1px solid #850209;
-          transform: none;
-  
-        }
-  
-        .nav.flex-column.flex-md-row {
-          flex-direction: column;
-        }
-        
-      }
-    </style>
-     <style>
-      .department-info {
-          margin-top: 20px;
+        transform: none;
+
       }
 
-      .department-info img {
-          max-height: 160px;
-          border: 0px solid #3C7593;
+      .nav.flex-column.flex-md-row {
+        flex-direction: column;
       }
 
-      .profile-card {
-          background-color: #f8f9fa;
-          padding: 20px;
-          border-radius: 10px;
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-          margin: 20px auto;
-      }
+    }
+  </style>
+  <style>
+    .department-info {
+      margin-top: 20px;
+    }
 
-      .table-responsive {
-          max-height: 400px;
-          overflow-y: auto;
-      }
+    .department-info img {
+      max-height: 160px;
+      border: 0px solid #3C7593;
+    }
 
-      .table {
-          width: 100%;
-          border-collapse: collapse;
-      }
+    .profile-card {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      margin: 20px auto;
+    }
 
-      .table th, .table td {
-          padding: 12px 15px;
-          text-align: left;
-          border-bottom: 1px solid #dee2e6;
-      }
+    .table-responsive {
+      max-height: 400px;
+      overflow-y: auto;
+    }
 
-      .table th {
-          background-color: #343a40;
-          color: #ffffff;
-      }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-      .table tbody tr:nth-child(even) {
-          background-color: #f2f2f2;
-      }
+    .table th,
+    .table td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #dee2e6;
+    }
 
-      .table tbody tr:hover {
-            background-color: #d3d3d3;
-        }
+    .table th {
+      background-color: #343a40;
+      color: #ffffff;
+    }
+
+    .table tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .table tbody tr:hover {
+      background-color: #d3d3d3;
+    }
   </style>
   <!------------------------------------------footer style -->
   <style>
     a {
-        text-decoration: none;
-        color: #fff;
+      text-decoration: none;
+      color: #fff;
     }
 
     .social-icons {
 
-        margin-right: 10px;
-        display: flex;
-        justify-content: space-around;
+      margin-right: 10px;
+      display: flex;
+      justify-content: space-around;
 
-        align-items: center;
+      align-items: center;
     }
 
     .list-unstyled.social-icons {
-        list-style: none;
-        padding: 0;
-        margin: 15px 0;
-        display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 15px 0;
+      display: flex;
     }
 
     .list-unstyled.social-icons li {
-        margin: 0 10px;
-        height: 20px;
+      margin: 0 10px;
+      height: 20px;
 
     }
 
     .quicklinks li {
-        margin: 5px;
-        opacity: 0.7;
-        transition: all 0.2ms;
+      margin: 5px;
+      opacity: 0.7;
+      transition: all 0.2ms;
     }
 
     .quicklinks li:hover {
-        opacity: 1;
-        font-weight: 500;
+      opacity: 1;
+      font-weight: 500;
 
     }
 
     .phone {
-        color: #ff5a2c;
-        font-family: Poppins Helvetica, sans-serif;
-        /* font-size: 15px; */
-        display: block;
-        margin-top: 4px;
+      color: #ff5a2c;
+      font-family: Poppins Helvetica, sans-serif;
+      /* font-size: 15px; */
+      display: block;
+      margin-top: 4px;
     }
 
     footer p {
 
-        font-size: 16px;
+      font-size: 16px;
     }
 
     .address {
-        font-size: 16px;
-        padding-left: 7px;
+      font-size: 16px;
+      padding-left: 7px;
     }
 
     .logo {
-        height: 80px;
-        width: fit-content;
+      height: 80px;
+      width: fit-content;
     }
 
     footer h5 {
-        margin-top: 20px;
+      margin-top: 20px;
     }
 
     /* Facebook */
     .social-icons .facebook:hover i {
-        color: #1877f2;
-        /* Facebook blue */
+      color: #1877f2;
+      /* Facebook blue */
     }
 
     /* Twitter */
     .social-icons .twitter:hover i {
-        color: #1DA1F2;
-        /* Twitter blue */
+      color: #1DA1F2;
+      /* Twitter blue */
     }
 
     /* Instagram */
     .social-icons .instagram:hover i {
-        color: #E4405F;
-        /* Instagram pink */
+      color: #E4405F;
+      /* Instagram pink */
     }
 
     /* Replace with your Instagram logo image */
@@ -637,423 +969,439 @@ body {
 
     /* LinkedIn */
     .social-icons .linkedin:hover i {
-        color: #0077B5;
-        /* LinkedIn blue */
+      color: #0077B5;
+      /* LinkedIn blue */
     }
 
     /* YouTube */
     .social-icons .youtube:hover i {
-        color: #FF0000;
-        /* YouTube red */
+      color: #FF0000;
+      /* YouTube red */
     }
-</style>
-  </head>
-  <body>
-    <!--------------------------------------nav bar--------------------->
+  </style>
+</head>
 
-    <nav class="navbar navbar-expand-lg bg-color fixed-top nav-elements-large ">
-      <div class="container-fluid">
-          <div class="navbar-brand d-flex" style="gap: 10px;align-items: center;color: #fff;">
-              <img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png" alt="Your Image" height="50" width="50">
-              <div>
-                  <h1 class="clg-title-navbar">SRI VASAVI <span class="title-span">ENGINEERING COLLEGE</span></h1>
-                  <h1 class="title-small clg-title-navbar">ENGINEERING COLLEGE</h1>
+<body>
+  <!--------------------------------------nav bar--------------------->
+  <nav class="navbar navbar-expand-lg bg-color fixed-top nav-elements-large ">
+    <div class="container-fluid">
+      <div class="navbar-brand d-flex" style="gap: 10px;align-items: center;color: #fff;">
+        <img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png" alt="Your Image"
+          height="50" width="50">
+        <div>
+          <h1 class="clg-title-navbar">SRI VASAVI <span class="title-span">ENGINEERING COLLEGE</span></h1>
+          <h1 class="title-small clg-title-navbar">ENGINEERING COLLEGE</h1>
 
-              </div>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " style="flex-grow: 0;" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: #fff;">Administration</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: #fff;">Departments</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: #fff;">Campus life</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: #fff;">Placements</a>
-                  </li>
-                  <li class="nav-item dropdown d-none">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
-                          Dropdown link
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                          </li>
-                      </ul>
-                  </li>
-              </ul>
-          </div>
+        </div>
       </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon border-bg-white"></span>
+      </button>
+      <div class="collapse navbar-collapse " style="flex-grow: 0;" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Administration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Campus life</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Placements</a>
+          </li>
+          <li class="nav-item dropdown d-none">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="color: #fff;">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <nav class="navbar navbar-expand-lg bg-color nav-elements-small fixed-top">
-      <div class="container-fluid">
-          <div class="navbar-brand d-flex" style="align-items: center;color: #fff;">
-              <img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png" alt="Your Image" height="50" width="50">
-              <div>
-                  <h1 class="clg-title-navbar">SRI VASAVI <span class="title-span">ENGINEERING COLLEGE</span></h1>
-                  <h1 class="title-small clg-title-navbar">ENGINEERING COLLEGE</h1>
+    <div class="container-fluid">
+      <div class="navbar-brand d-flex" style="align-items: center;color: #fff;">
+        <img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png" alt="Your Image"
+          height="50" width="50">
+        <div>
+          <h1 class="clg-title-navbar">SRI VASAVI <span class="title-span">ENGINEERING COLLEGE</span></h1>
+          <h1 class="title-small clg-title-navbar">ENGINEERING COLLEGE</h1>
 
-              </div>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse bg-white w-100" style="flex-grow: 0;width:100vw;border-radius:6px;" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                  <div class="container p-0">
-                      <div class="row">
-                          <div class=" col-6" style="border: 1px solid #b1040e;">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link active" aria-current="page" href="#" style="color: #000000;">Home</a>
-                              </li>
-                          </div>
-                          <div class="col-6 " style="border: 1px solid #b1040e;">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link active" aria-current="page" href="#" style="color: #000000;">Home</a>
-                              </li>
-                          </div>
-                          <div class="col-6" style="border: 1px solid #b1040e">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link" href="#" style="color: #000000;">Administration</a>
-                              </li>
-                          </div>
-                          <div class="col-6" style="border: 1px solid #b1040e">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link" href="#" style="color: #000000;">Departments</a>
-                              </li>
-                          </div>
-                          <div class="col-6" style="border: 1px solid #b1040e">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link" href="#" style="color: #000000;">Campus life</a>
-                              </li>
-                          </div>
-                          <div class="col-6" style="border: 1px solid #b1040e">
-                              <li class="nav-item p-1">
-                                  <a class="nav-link" href="#" style="color: #000000;">Placements</a>
-                              </li>
-                          </div>
-                          <div class="col-12 d-none">
-                              <li class="nav-item dropdown d-none">
-                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
-                                      Dropdown link
-                                  </a>
-                                  <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Action</a></li>
-                                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                                      <li>
-                                          <a class="dropdown-item" href="#">Something else here</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                          </div>
-                      </div>
-                  </div>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-    <!---------------------------------------nav bar ends ------------------>
-
-
-
-
-
-    <div class="wrapper d-flex align-items-stretch ">
-      <nav id="sidebar">
-        <div class="custom-menu">
-          <button type="button" id="sidebarCollapse" class="btn btn-primary bg-danger">
-            <i class="fa fa-bars"></i>
-            <span class="sr-only">Toggle Menu</span>
-          </button>
         </div>
-        <div class="p-4 pt-5 ">
-          <h1><a href="index.html" class="logo" style="font-size:30px;">Departments</a></h1>
-          <ul class="list-unstyled components mb-5 " >
-            <li class="active">
-              
-            </li>
-            <li>
-              <a href="#">Department Profile</a>
-            </li>
-            <li>
-              <a href="#">Faculty Profiles</a>
-            </li>
-            <li>
-              <a href="#">Board of Studies</a>
-            </li>
-            <li>
-              <a href="#">Physical Facilities</a>
-            </li>
-            <li>
-              <a href="#">Department Library</a>
-            </li>
-            <li>
-              <a href="#">MoUs</a>
-            </li>
-            <li>
-              <a href="#">Faculty Development Programs</a>
-            </li>
-            <li>
-              <a href="#">Faculty Achievements</a>
-            </li>
-            <li>
-              <a href="#">Workshops/SOC/Seminars/Guest Lectures</a>
-            </li>
-            <li>
-              <a href="#">Student Achievements</a>
-            </li>
-            <li>
-              <a href="#">Placements</a>
-            </li>
-            <li>
-              <a href="#">Merit Scholarship/Academic Toppers</a>
-            </li>
-            <li>
-              <a href="#">Technical Association</a>
-            </li>
-            <li>
-              <a href="#">Training Activities</a>
-            </li>
-            <li>
-              <a href="#">Newsletters</a>
-            </li>
-            <li>
-              <a href="#">Extra-Curricular Activities</a>
-            </li>
-            <li>
-              <a href="#">Hackthons</a>
-            </li>
-            <li>
-              <a href="#">e-Resources</a>
-            </li>
-            <li>
-              <a href="#">Syllabus</a>
-            </li>
-            <li>
-              <a href="#">Handbooks</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <div class="mb-5">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse bg-white w-100" style="flex-grow: 0;width:100vw;border-radius:6px;"
+        id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <div class="container p-0">
+            <div class="row">
+              <div class=" col-6" style="border: 1px solid #b1040e;">
+                <li class="nav-item p-1">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: #000000;">Home</a>
+                </li>
+              </div>
+              <div class="col-6 " style="border: 1px solid #b1040e;">
+                <li class="nav-item p-1">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: #000000;">Home</a>
+                </li>
+              </div>
+              <div class="col-6" style="border: 1px solid #b1040e">
+                <li class="nav-item p-1">
+                  <a class="nav-link" href="#" style="color: #000000;">Administration</a>
+                </li>
+              </div>
+              <div class="col-6" style="border: 1px solid #b1040e">
+                <li class="nav-item p-1">
+                  <a class="nav-link" href="#" style="color: #000000;">Departments</a>
+                </li>
+              </div>
+              <div class="col-6" style="border: 1px solid #b1040e">
+                <li class="nav-item p-1">
+                  <a class="nav-link" href="#" style="color: #000000;">Campus life</a>
+                </li>
+              </div>
+              <div class="col-6" style="border: 1px solid #b1040e">
+                <li class="nav-item p-1">
+                  <a class="nav-link" href="#" style="color: #000000;">Placements</a>
+                </li>
+              </div>
+              <div class="col-12 d-none">
+                <li class="nav-item dropdown d-none">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="color: #fff;">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!---------------------------------------nav bar ends ------------------>
+
+
+
+
+
+  <div class="wrapper d-flex align-items-stretch ">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary bg-danger">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+      </div>
+      <div class="p-4 pt-5 ">
+        <h1><a href="index.html" class="logo" style="font-size:30px;">Departments</a></h1>
+        <ul class="list-unstyled components mb-5 ">
+          <li class="active">
+
+          </li>
+          <li>
+            <a href="#">Department Profile</a>
+          </li>
+          <li>
+            <a href="#">Faculty Profiles</a>
+          </li>
+          <li>
+            <a href="#">Board of Studies</a>
+          </li>
+          <li>
+            <a href="#">Physical Facilities</a>
+          </li>
+          <li>
+            <a href="#">Department Library</a>
+          </li>
+          <li>
+            <a href="#">MoUs</a>
+          </li>
+          <li>
+            <a href="#">Faculty Development Programs</a>
+          </li>
+          <li>
+            <a href="#">Faculty Achievements</a>
+          </li>
+          <li>
+            <a href="#">Workshops/SOC/Seminars/Guest Lectures</a>
+          </li>
+          <li>
+            <a href="#">Student Achievements</a>
+          </li>
+          <li>
+            <a href="#">Placements</a>
+          </li>
+          <li>
+            <a href="#">Merit Scholarship/Academic Toppers</a>
+          </li>
+          <li>
+            <a href="#">Technical Association</a>
+          </li>
+          <li>
+            <a href="#">Training Activities</a>
+          </li>
+          <li>
+            <a href="#">Newsletters</a>
+          </li>
+          <li>
+            <a href="#">Extra-Curricular Activities</a>
+          </li>
+          <li>
+            <a href="#">Hackthons</a>
+          </li>
+          <li>
+            <a href="#">e-Resources</a>
+          </li>
+          <li>
+            <a href="#">Syllabus</a>
+          </li>
+          <li>
+            <a href="#">Handbooks</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="mb-5">
+        </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5">
+      <h2 class="mb-4">CSE Department</h2>
+      <div class="container my-5">
+        <nav>
+          <div class="nav flex-column flex-lg-row " id="nav-tab" role="tablist">
+            <button class="nav-link active ml-md-0" id="nav-department-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-department" type="button" role="tab" aria-controls="nav-department"
+              aria-selected="true">Department</button>
+
+            <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision" type="button"
+              role="tab" aria-controls="nav-vision" aria-selected="false">Vision</button>
+
+            <button class="nav-link" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission"
+              type="button" role="tab" aria-controls="nav-mission" aria-selected="false">Mission</button>
+
+            <button class="nav-link" id="nav-peos-tab" data-bs-toggle="tab" data-bs-target="#nav-peos" type="button"
+              role="tab" aria-controls="nav-peos" aria-selected="false">PEOs</button>
+
+            <button class="nav-link" id="nav-pos-tab" data-bs-toggle="tab" data-bs-target="#nav-pos" type="button"
+              role="tab" aria-controls="nav-pos" aria-selected="false">POS</button>
+
+            <button class="nav-link" id="nav-psos-tab" data-bs-toggle="tab" data-bs-target="#nav-psos" type="button"
+              role="tab" aria-controls="nav-psos" aria-selected="false">PSOS</button>
+
+            <button class="nav-link" id="nav-cos-tab" data-bs-toggle="tab" data-bs-target="#nav-cos" type="button"
+              role="tab" aria-controls="nav-cos" aria-selected="false">COS</button>
+
+            <button class="nav-link" id="nav-salient-features-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-salient-features" type="button" role="tab" aria-controls="nav-salient-features"
+              aria-selected="false">Salient Features</button>
           </div>
         </nav>
-
-        <!-- Page Content  -->
-        <div id="content" class="p-4 p-md-5 pt-5">
-          <h2 class="mb-4">Sidebar #02</h2>
-          <div class="container my-5">
-            <nav>
-              <div class="nav flex-column flex-lg-row " id="nav-tab" role="tablist">
-                <button class="nav-link active ml-md-0" id="nav-department-tab" data-bs-toggle="tab" data-bs-target="#nav-department"
-                  type="button" role="tab" aria-controls="nav-department" aria-selected="true">Department</button>
-        
-                <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
-                  type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Vision</button>
-        
-                <button class="nav-link" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button"
-                  role="tab" aria-controls="nav-mission" aria-selected="false">Mission</button>
-        
-                <button class="nav-link" id="nav-peos-tab" data-bs-toggle="tab" data-bs-target="#nav-peos" type="button"
-                  role="tab" aria-controls="nav-peos" aria-selected="false">PEOs</button>
-        
-                <button class="nav-link" id="nav-pos-tab" data-bs-toggle="tab" data-bs-target="#nav-pos" type="button"
-                  role="tab" aria-controls="nav-pos" aria-selected="false">POS</button>
-        
-                <button class="nav-link" id="nav-psos-tab" data-bs-toggle="tab" data-bs-target="#nav-psos" type="button"
-                  role="tab" aria-controls="nav-psos" aria-selected="false">PSOS</button>
-        
-                <button class="nav-link" id="nav-cos-tab" data-bs-toggle="tab" data-bs-target="#nav-cos" type="button"
-                  role="tab" aria-controls="nav-cos" aria-selected="false">COS</button>
-        
-                <button class="nav-link" id="nav-salient-features-tab" data-bs-toggle="tab"
-                  data-bs-target="#nav-salient-features" type="button" role="tab" aria-controls="nav-salient-features"
-                  aria-selected="false">Salient Features</button>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade  p-3" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
+            <h2>Vision</h2>
+            <p>Department Vision content goes here.</p>
+          </div>
+          <div class="tab-pane fade p-3" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+            <h2>Mission</h2>
+            <p>Department Mission content goes here.</p>
+          </div>
+          <div class="tab-pane fade p-3" id="nav-peos" role="tabpanel" aria-labelledby="nav-peos-tab">
+            <h2>PEOs</h2>
+            <p>PEOs content goes here.</p>
+          </div>
+          <div class="tab-pane fade  show active p-3" id="nav-department" role="tabpanel"
+            aria-labelledby="nav-department-tab">
+            <div class="row">
+              <div class="col-md-8">
+                <img class="img-fluid" src="scss\cse_hod1.jpeg" height="160" style="border:0px solid #3C7593;">
               </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade  p-3" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                <h2>Vision</h2>
-                <p>Department Vision content goes here.</p>
+              <div class="col-md-4 text-md-left text-sm-center">
+                <h2>Dr. D. Jaya Kumari</h2>
+                <p>Professor & Head of the Department</p>
+                <p>Phone No: 08818-284355(O)-(Ext.-377)</p>
+                <p>Fax No: 08818-284322</p>
+                <p>Email: hod_cse@srivasaviengg.ac.in</p>
               </div>
-              <div class="tab-pane fade p-3" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
-                <h2>Mission</h2>
-                <p>Department Mission content goes here.</p>
-              </div>
-              <div class="tab-pane fade p-3" id="nav-peos" role="tabpanel" aria-labelledby="nav-peos-tab">
-                <h2>PEOs</h2>
-                <p>PEOs content goes here.</p>
-              </div>
-              <div class="tab-pane fade  show active p-3" id="nav-department" role="tabpanel" aria-labelledby="nav-department-tab">
-                <div class="row">
-                    <div class="col-md-8">
-                        <img class="img-fluid" src="scss\cse_hod1.jpeg" height="160" style="border:0px solid #3C7593;">
-                    </div>
-                    <div class="col-md-4 text-md-left text-sm-center">
-                        <h2>Dr. D. Jaya Kumari</h2>
-                        <p>Professor & Head of the Department</p>
-                        <p>Phone No: 08818-284355(O)-(Ext.-377)</p>
-                        <p>Fax No: 08818-284322</p>
-                        <p>Email: hod_cse@srivasaviengg.ac.in</p>
-                    </div>
-                </div>
-                <div class="profile-card">
-                    <h3>Department Profile</h3>
-                    <p>CSE Department came into inception from 2001 onwards with an intake of 60 seats in B.Tech. From 2006 onwards the intake was increased to 120 seats. From 2013 onwards the intake was increased to 180 seats. From 2015 onwards intake was increased to 240 seats.</p>
-                    <p>CSE Department is offering M.Tech (CS) program from 2020 onwards with a present intake of 12.</p>
-                </div>
-                <h3>Courses</h3>
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>S.No</th>
-                                <th>Name of the Course</th>
-                                <th>Eligibility Criteria</th>
-                                <th>Duration</th>
-                                <th>Intake</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>B.Tech-Computer Science and Engineering</td>
-                                <td>AP EAPCET</td>
-                                <td>4 Years</td>
-                                <td>240</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>M.Tech-Computer Science</td>
-                                <td>GATE / PGECET</td>
-                                <td>2 Years</td>
-                                <td>12</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
-            
-              <div class="tab-pane fade p-3" id="nav-pos" role="tabpanel" aria-labelledby="nav-pos-tab">
-                <h2>POS</h2>
-                <p>POS content goes here.</p>
-              </div>
-              <div class="tab-pane fade p-3" id="nav-psos" role="tabpanel" aria-labelledby="nav-psos-tab">
-                <h2>PSOS</h2>
-                <p>PSOS content goes here.</p>
-              </div>
-              <div class="tab-pane fade p-3" id="nav-cos" role="tabpanel" aria-labelledby="nav-cos-tab">
-                <h2>COS</h2>
-                <p>COS content goes here.</p>
-              </div>
-              <div class="tab-pane fade p-3" id="nav-salient-features" role="tabpanel"
-                aria-labelledby="nav-salient-features-tab">
-                <h2>Salient Features</h2>
-                <p>Salient Features content goes here.</p>
-              </div>
+            <div class="profile-card">
+              <h3>Department Profile</h3>
+              <p>CSE Department came into inception from 2001 onwards with an intake of 60 seats in B.Tech. From 2006
+                onwards the intake was increased to 120 seats. From 2013 onwards the intake was increased to 180 seats.
+                From 2015 onwards intake was increased to 240 seats.</p>
+              <p>CSE Department is offering M.Tech (CS) program from 2020 onwards with a present intake of 12.</p>
+            </div>
+            <h3>Courses</h3>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>S.No</th>
+                    <th>Name of the Course</th>
+                    <th>Eligibility Criteria</th>
+                    <th>Duration</th>
+                    <th>Intake</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>B.Tech-Computer Science and Engineering</td>
+                    <td>AP EAPCET</td>
+                    <td>4 Years</td>
+                    <td>240</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>M.Tech-Computer Science</td>
+                    <td>GATE / PGECET</td>
+                    <td>2 Years</td>
+                    <td>12</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-          
+
+          <div class="tab-pane fade p-3" id="nav-pos" role="tabpanel" aria-labelledby="nav-pos-tab">
+            <h2>POS</h2>
+            <p>POS content goes here.</p>
+          </div>
+          <div class="tab-pane fade p-3" id="nav-psos" role="tabpanel" aria-labelledby="nav-psos-tab">
+            <h2>PSOS</h2>
+            <p>PSOS content goes here.</p>
+          </div>
+          <div class="tab-pane fade p-3" id="nav-cos" role="tabpanel" aria-labelledby="nav-cos-tab">
+            <h2>COS</h2>
+            <p>COS content goes here.</p>
+          </div>
+          <div class="tab-pane fade p-3" id="nav-salient-features" role="tabpanel"
+            aria-labelledby="nav-salient-features-tab">
+            <h2>Salient Features</h2>
+            <p>Salient Features content goes here.</p>
+          </div>
         </div>
-          <!-- footer -->
-          
       </div>
-    
-    <footer class="bg-dark text-light py-4">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6 col-lg-3 ">
-                  <img class="logo" src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png" alt="College-logo" style="margin-bottom:20px ;">
-                  <p style="font-size: 16px;opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at,
-                      accusamus
-                      dolores quas praesentium
-                      voluptatum odio quo dolorem, commodi possimus maxime voluptatibus eius atque placeat optio reprehenderit
-                      nihil. Asperiores, delectus.</p>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                  <h5>Quick Links</h5>
-                  <ul class="list-unstyled quicklinks">
-                      <li><a href="#">Photo Gallery</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                      <li><a href="#">Hostels</a></li>
-                      <li><a href="#">Sports <br>Facililties</a></li>
-                      <li><a href="#">Transport</a></li>
 
-                  </ul>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                  <h5>Useful Links</h5>
-                  <ul class="list-unstyled quicklinks">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Contact</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                  <h5>Connect with Us</h5>
-                  <ul class="list-unstyled social-icons">
-                      <li><a class="facebook" href="#"><i class="fab fa-facebook" style="font-size: 24px;"></i></a></li>
-                      <li><a class="twitter" href="https://twitter.com/Gdsc_Svec" target="twitter"><i class="fab fa-x-twitter" style="font-size: 24px;"></i></a></li>
-                      <li><a class="instagram" href="https://www.instagram.com/gdsc.svec/" target="instagram"><i class="fab fa-instagram" style="font-size: 24px;"></i></a></li>
-                      <li><a class="linkedin" href="#"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a></li>
-                      <li><a class="youtube" href="https://www.youtube.com/@GDSC_SVEC" target="youtube"><i class="fab fa-youtube" style="font-size: 24px;"></i></a></li>
-                  </ul>
+    </div>
+    <!-- footer -->
 
-                  <h5>Contact Us</h5>
+  </div>
 
-                  <p class="address">
-                      Sri Vasavi Engineering College <br> Pedatadepalli,Tadepalligudem <br>534 101 West Godavari Dist., <br>Andhra
-                      Pradesh.
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 ">
+          <img class="logo" src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1693810335/SVEC_logo_dyjxrl.png"
+            alt="College-logo" style="margin-bottom:20px ;">
+          <p style="font-size: 16px;opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at,
+            accusamus
+            dolores quas praesentium
+            voluptatum odio quo dolorem, commodi possimus maxime voluptatibus eius atque placeat optio reprehenderit
+            nihil. Asperiores, delectus.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled quicklinks">
+            <li><a href="#">Photo Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Hostels</a></li>
+            <li><a href="#">Sports <br>Facililties</a></li>
+            <li><a href="#">Transport</a></li>
 
-                      <span class="phone"><i class="fas fa-phone " style="margin-right: 4px;"></i>+91-8818284322 <br>(9:30
-                          AM-4:30 PM)</span>
-                      <span class=" phone"> <i class="fas fa-envelope" style="margin-right: 4px;">
-                          </i>principal@srivasaviengg.ac.in
-                      </span>
-                  </p>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h5>Useful Links</h5>
+          <ul class="list-unstyled quicklinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h5>Connect with Us</h5>
+          <ul class="list-unstyled social-icons">
+            <li><a class="facebook" href="#"><i class="fab fa-facebook" style="font-size: 24px;"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/Gdsc_Svec" target="twitter"><i class="fab fa-x-twitter"
+                  style="font-size: 24px;"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/gdsc.svec/" target="instagram"><i
+                  class="fab fa-instagram" style="font-size: 24px;"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/@GDSC_SVEC" target="youtube"><i class="fab fa-youtube"
+                  style="font-size: 24px;"></i></a></li>
+          </ul>
 
-              </div>
-          </div>
+          <h5>Contact Us</h5>
+
+          <p class="address">
+            Sri Vasavi Engineering College <br> Pedatadepalli,Tadepalligudem <br>534 101 West Godavari Dist., <br>Andhra
+            Pradesh.
+
+            <span class="phone"><i class="fas fa-phone " style="margin-right: 4px;"></i>+91-8818284322 <br>(9:30
+              AM-4:30 PM)</span>...
+            <span class=" phone"> <i class="fas fa-envelope" style="margin-right: 4px;">
+              </i>principal@srivasaviengg.ac.in
+            </span>
+          </p>
+
+        </div>
       </div>
-      <p style="text-align: center;opacity: 0.7;">Powered by <a href="#" style="font-weight: 700;margin-right:5px;margin-left:5px;">
-              <span style="color:#4285F4 ;">G</span>
-              <span style="color:#34A853 ;">D</span>
-              <span style="color:#FBBC05 ;">S</span>
-              <span style="color:#EA4335; margin-right:8px;">C</span>Web Devs</a></p>
-      <p style="text-align: center;opacity: 0.7;">Copyright © 2023 Sri Vasavi Engineering College. All Rights Reserved.
-      </p>
-        
+    </div>
+    <p style="text-align: center;opacity: 0.7;">Powered by <a href="#"
+        style="font-weight: 700;margin-right:5px;margin-left:5px;">
+        <span style="color:#4285F4 ;">G</span>
+        <span style="color:#34A853 ;">D</span>
+        <span style="color:#FBBC05 ;">S</span>
+        <span style="color:#EA4335; margin-right:8px;">C</span>Web Devs</a></p>
+    <p style="text-align: center;opacity: 0.7;">Copyright © 2023 Sri Vasavi Engineering College. All Rights Reserved.
+    </p>
+
   </footer>
-      <!-- bootstrap & popper js -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/main.js"></script>
-       <!-- bootstrap & popper js -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-  </html>
+  <!-- bootstrap & popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- bootstrap & popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
