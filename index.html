@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sidebar 02</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+        /* Decrease the font size of the list items in the ul with class "list-unstyled" */
+        .list-unstyled.components li a {
+            font-size: 12px; /* You can adjust the size as needed */
+        }
+
+        /* Change the color of the side navigation to black and white */
+		    #sidebar {
+            background-color: black;
+        }
+
+        #sidebar a {
+            color: white;
+            text-decoration:none;
+        }
+
+        /* Add a hover effect for links */
+        #sidebar a:hover {
+            color: #fff;
+			      font-weight: 600;
+
+        }
+        
+
+    </style>
+    <title>Tabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Optional: jQuery (required for some Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Optional: Popper.js (required for some Bootstrap components) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    
+    
+    
+    <!--- --------------------- full tab content--------------------------->
+    <style>
+      .nav {
+        margin: 10px auto;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+      }
+  
+      .nav-link {
+        color: #b1040e;
+        /* Text color */
+        background-color: #fff;
+        /* Background color */
+        border: none;
+        /* Remove border */
+        border-radius: 0;
+        /* Remove border radius */
+        transition: background-color 0.3s ease-in-out;
+        /* Add smooth transition */
+        margin-left: 5px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        border-bottom: 15px hidden #fff;
+  
+  
+        /* Updated margin to create space between stacked buttons */
+      }
+     
+      
+  
+      .nav-link:hover {
+        background-color: #850209;
+        color: #fff;
+        font-weight: 500;
+        /* Change color on hover */
+      }
+  
+      /* CSS for the active tab button */
+      .nav-link.active {
+        background-color: #f8f9fa;
+        transform: translateY(2px);
+        color: #850209;
+        border: 1px solid #850209;
+        border-bottom: none;
+        font-weight: 700;
+      }
+  
+      .tab-content {
+        background-color: #f8f9fa;
+        /* Background color for tab content */
+        padding: 20px;
+        border: 2px solid #b1040e;
+        /* Add a border to tab content */
+        border-radius: 10px;
+        /* Rounded corners for the bottom of tab content */
+      }
+  
+      .tab-pane {
+        animation: fadeIn 0.5s ease-in-out;
+        /* Add fadeIn animation to tab content */
+      }
+      #sidebarCollapse{
+        background-color: #850209;
+      }
+  
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+  
+        to {
+          opacity: 1;
+        }
+  
+      }
+  
+      @media screen and (max-width: 996px) {
+        
+        .nav-link:first-child {
+          margin-left: 4px;
+        }
+  
+        .nav-link {
+          border: 2px solid #ffffff;
+          margin-bottom: 5px;
+          padding-bottom: 8px;
+          width:100%;
+        }
+  
+        .nav-link.active {
+          border: 1px solid #850209;
+          transform: none;
+  
+        }
+  
+        .nav.flex-column.flex-md-row {
+          flex-direction: column;
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="wrapper d-flex align-items-stretch ">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary bg-danger">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+        </div>
+        <div class="p-4 pt-5 ">
+          <h1><a href="index.html" class="logo" style="font-size:30px;">Departments</a></h1>
+          <ul class="list-unstyled components mb-5 " >
+            <li class="active">
+              
+            </li>
+            <li>
+              <a href="#">Department Profile</a>
+            </li>
+            <li>
+              <a href="#">Faculty Profiles</a>
+            </li>
+            <li>
+              <a href="#">Board of Studies</a>
+            </li>
+            <li>
+              <a href="#">Physical Facilities</a>
+            </li>
+            <li>
+              <a href="#">Department Library</a>
+            </li>
+            <li>
+              <a href="#">MoUs</a>
+            </li>
+            <li>
+              <a href="#">Faculty Development Programs</a>
+            </li>
+            <li>
+              <a href="#">Faculty Achievements</a>
+            </li>
+            <li>
+              <a href="#">Workshops/SOC/Seminars/Guest Lectures</a>
+            </li>
+            <li>
+              <a href="#">Student Achievements</a>
+            </li>
+            <li>
+              <a href="#">Placements</a>
+            </li>
+            <li>
+              <a href="#">Merit Scholarship/Academic Toppers</a>
+            </li>
+            <li>
+              <a href="#">Technical Association</a>
+            </li>
+            <li>
+              <a href="#">Training Activities</a>
+            </li>
+            <li>
+              <a href="#">Newsletters</a>
+            </li>
+            <li>
+              <a href="#">Extra-Curricular Activities</a>
+            </li>
+            <li>
+              <a href="#">Hackthons</a>
+            </li>
+            <li>
+              <a href="#">e-Resources</a>
+            </li>
+            <li>
+              <a href="#">Syllabus</a>
+            </li>
+            <li>
+              <a href="#">Handbooks</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="mb-5">
+          </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+          <h2 class="mb-4">Sidebar #02</h2>
+          <div class="container my-5">
+            <nav>
+              <div class="nav flex-column flex-lg-row" id="nav-tab" role="tablist">
+                <button class="nav-link ml-md-0" id="nav-department-tab" data-bs-toggle="tab" data-bs-target="#nav-department"
+                  type="button" role="tab" aria-controls="nav-department" aria-selected="false">Department</button>
+        
+                <button class="nav-link active" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
+                  type="button" role="tab" aria-controls="nav-vision" aria-selected="true">Vision</button>
+        
+                <button class="nav-link" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button"
+                  role="tab" aria-controls="nav-mission" aria-selected="false">Mission</button>
+        
+                <button class="nav-link" id="nav-peos-tab" data-bs-toggle="tab" data-bs-target="#nav-peos" type="button"
+                  role="tab" aria-controls="nav-peos" aria-selected="false">PEOs</button>
+        
+                <button class="nav-link" id="nav-pos-tab" data-bs-toggle="tab" data-bs-target="#nav-pos" type="button"
+                  role="tab" aria-controls="nav-pos" aria-selected="false">POS</button>
+        
+                <button class="nav-link" id="nav-psos-tab" data-bs-toggle="tab" data-bs-target="#nav-psos" type="button"
+                  role="tab" aria-controls="nav-psos" aria-selected="false">PSOS</button>
+        
+                <button class="nav-link" id="nav-cos-tab" data-bs-toggle="tab" data-bs-target="#nav-cos" type="button"
+                  role="tab" aria-controls="nav-cos" aria-selected="false">COS</button>
+        
+                <button class="nav-link" id="nav-salient-features-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-salient-features" type="button" role="tab" aria-controls="nav-salient-features"
+                  aria-selected="false">Salient Features</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active p-3" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
+                <h2>Vision</h2>
+                <p>Department Vision content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+                <h2>Mission</h2>
+                <p>Department Mission content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-peos" role="tabpanel" aria-labelledby="nav-peos-tab">
+                <h2>PEOs</h2>
+                <p>PEOs content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-department" role="tabpanel" aria-labelledby="nav-department-tab">
+                <h2>Department</h2>
+                <p>acer content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-pos" role="tabpanel" aria-labelledby="nav-pos-tab">
+                <h2>POS</h2>
+                <p>POS content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-psos" role="tabpanel" aria-labelledby="nav-psos-tab">
+                <h2>PSOS</h2>
+                <p>PSOS content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-cos" role="tabpanel" aria-labelledby="nav-cos-tab">
+                <h2>COS</h2>
+                <p>COS content goes here.</p>
+              </div>
+              <div class="tab-pane fade p-3" id="nav-salient-features" role="tabpanel"
+                aria-labelledby="nav-salient-features-tab">
+                <h2>Salient Features</h2>
+                <p>Salient Features content goes here.</p>
+              </div>
+            </div>
+          </div>
+          <!-- bootstrap & popper js -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script></div>
+      </div>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+       <!-- bootstrap & popper js -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    </body>
+  </html>
